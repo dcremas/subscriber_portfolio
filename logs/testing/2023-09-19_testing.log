@@ -1,0 +1,106 @@
+test_columns_courses (__main__.TestDatabase) ... ok
+test_columns_student_jobs (__main__.TestDatabase) ... ok
+test_columns_students (__main__.TestDatabase) ... ok
+test_record_count_courses (__main__.TestDatabase) ... ok
+test_record_count_student_jobs (__main__.TestDatabase) ... ok
+test_record_count_students (__main__.TestDatabase) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.092s
+
+OK
+test_columns_courses (__main__.TestDatabase) ... ok
+test_columns_student_jobs (__main__.TestDatabase) ... ok
+test_columns_students (__main__.TestDatabase) ... ok
+test_record_count_courses (__main__.TestDatabase) ... ok
+test_record_count_student_jobs (__main__.TestDatabase) ... ok
+test_record_count_students (__main__.TestDatabase) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.090s
+
+OK
+test_columns_courses (__main__.TestDatabase) ... ok
+test_columns_student_jobs (__main__.TestDatabase) ... ok
+test_columns_students (__main__.TestDatabase) ... ok
+test_record_count_courses (__main__.TestDatabase) ... ok
+test_record_count_student_jobs (__main__.TestDatabase) ... ok
+test_record_count_students (__main__.TestDatabase) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.099s
+
+OK
+test_columns_courses (__main__.TestDatabase) ... ok
+test_columns_student_jobs (__main__.TestDatabase) ... ok
+test_columns_students (__main__.TestDatabase) ... test_record_count_courses (__main__.TestDatabase) ... ok
+test_record_count_student_jobs (__main__.TestDatabase) ... ok
+test_record_count_students (__main__.TestDatabase) ... ok
+
+======================================================================
+FAIL: test_columns_students (__main__.TestDatabase) [time_spent_hr]
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/dustincremascoli/Documents/codecademy/data_engineering/subscriber_portfolio/test.py", line 51, in test_columns_students
+    self.assertIn(field, self.df_students_new.columns, msg="This column does not exist.")
+AssertionError: 'time_spent_hr' not found in Index(['uuid', 'name', 'dob', 'sex', 'contact_info', 'job_id',
+       'num_course_taken', 'current_career_path_id', 'time_spent_hrs'],
+      dtype='object') : This column does not exist.
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.089s
+
+FAILED (failures=1)
+test_columns_courses (__main__.TestDatabase) ... ok
+test_columns_student_jobs (__main__.TestDatabase) ... ok
+test_columns_students (__main__.TestDatabase) ... test_record_count_courses (__main__.TestDatabase) ... ok
+test_record_count_student_jobs (__main__.TestDatabase) ... ok
+test_record_count_students (__main__.TestDatabase) ... ok
+
+======================================================================
+FAIL: test_columns_students (__main__.TestDatabase) [time_spent_hr]
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/dustincremascoli/Documents/codecademy/data_engineering/subscriber_portfolio/test.py", line 51, in test_columns_students
+    self.assertIn(field, self.df_students_new.columns, msg="This column does not exist.")
+AssertionError: 'time_spent_hr' not found in Index(['uuid', 'name', 'dob', 'sex', 'contact_info', 'job_id',
+       'num_course_taken', 'current_career_path_id', 'time_spent_hrs'],
+      dtype='object') : This column does not exist.
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.126s
+
+FAILED (failures=1)
+test_columns_courses (__main__.TestDatabase) ... ok
+test_columns_student_jobs (__main__.TestDatabase) ... ok
+test_columns_students (__main__.TestDatabase) ... ok
+test_record_count_courses (__main__.TestDatabase) ... ok
+test_record_count_student_jobs (__main__.TestDatabase) ... ok
+test_record_count_students (__main__.TestDatabase) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.084s
+
+OK
+test_columns_courses (__main__.TestDatabase) ... ok
+test_columns_student_jobs (__main__.TestDatabase) ... ok
+test_columns_students (__main__.TestDatabase) ... ok
+test_record_count_courses (__main__.TestDatabase) ... ok
+test_record_count_student_jobs (__main__.TestDatabase) ... ok
+test_record_count_students (__main__.TestDatabase) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.096s
+
+OK
+test_columns_courses (__main__.TestDatabase) ... ok
+test_columns_student_jobs (__main__.TestDatabase) ... ok
+test_columns_students (__main__.TestDatabase) ... ok
+test_record_count_courses (__main__.TestDatabase) ... ok
+test_record_count_student_jobs (__main__.TestDatabase) ... ok
+test_record_count_students (__main__.TestDatabase) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.110s
+
+OK
