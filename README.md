@@ -1,5 +1,8 @@
 ### Title: Codecademy Portfolio Project, Data Ingestion Pipeline.
 
+*To see the full codebase for this project:*
+[Link to my github account](https://github.com/dcremas/subscriber_portfolio)
+
 #### Description:
 
 #### A project intended to automate the data ingestion of subscriber cancellations for an online learning company. Ultimately providing a tidy, analytic ready csv file and sqlite database.
@@ -40,8 +43,3 @@ Codecademy Portfolio Project: #13 lesson from the Data Engineering Career Path.
 ##### License:
 
 N/A.
-
-*To see the full codebase for this project:*
-
-[Link to my github account](https://github.com/dcremas/subscriber_portfolio)
-
